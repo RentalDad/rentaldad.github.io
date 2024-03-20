@@ -1,22 +1,30 @@
-@font-face {
-    font-family: 'Blackletter';
-    src: url('BlackletterShadow-6YAA.ttf') format('ttf'),
-         url('BlackletterExtrabold-51DV.ttf') format('ttf');
-  }
-
 html {
     background-color: black;
     color: white;
 }
 
+@font-face {
+  font-family: 'Blackletter';
+  src: url('resources/BlackletterShadow-6YAA.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Astloch';
+  src: url('resources/Astloch-Regular.ttf') format('ttf');
+}
+
 .bannerText {
     text-align: center;
     margin: 0 auto;
+    font-family: 'Blackletter';
+    font-size: 54px;
 }
 .breadcrumb {
     background-color: #f8a204;
     padding: 10px;
     border-radius: 7px;
+    font-family: 'Blackletter';
+    font-size: 16px;
   }
   
   .breadcrumb ul {
@@ -41,4 +49,17 @@ html {
   
   .breadcrumb a:hover {
     text-decoration: underline;
+  }
+
+  .intro {
+    
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    padding: 2px;
+  }
+
+  footer {
+    font-size: x-small;
+    font-family: 'Courier New', Courier, monospace;
   }
